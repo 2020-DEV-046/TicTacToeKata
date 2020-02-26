@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.tictactoe.kata</groupId>
 	<artifactId>TicTacToeKata</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.0-RELEASE</version>
 	<name>TicTacToeKata</name>
 	<description>Tic Tac Toe Kata Demo Using Spring Boot Core</description>
 
