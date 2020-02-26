@@ -13,17 +13,21 @@ It is implementation of a simple Tic Tac Toe game.
   7) If all nine squares are filled and neither player has three in a row, the game is a draw.
   
   ## Getting Started
-    In order to run and deploy this application user needs follow below steps-
-  
+    In order to run and deploy this application user needs follow below steps -
     1) Clone git repostitory in some local folder using below command run on cmder of bash git command prompt.
-         git pull https://github.com/2020-DEV-046/TicTacToeKata.git
+       git pull https://github.com/2020-DEV-046/TicTacToeKata.git
     2) Open STS and import project as exiting maven project in STS, Setting up STS steps given in installation section.
     3) Right click imported project and go to maven -> update project.
     4) Right click again imported project and go to Run as -> maven clean to clean project.
-    5) Right click again imported project and go to Run as -> maven install to install project to compile source code and generate jar
-        file in target folder.
+    5) Right click again imported project and go to Run as -> maven install to install project to compile source code 
+       and generate jar file in target folder.
     6) Copy TicTacToeKata-1.0-RELEASE.jar file generated in target folder to some local folder.
-    7) Start dos command prompt and reach to copied jar folder location and run below java 
-        command - Java -jar TicTacToeKata-1.0-RELEASE.jar
-    8) One dialog will open in command prompt to enter player names of both players and scores. Once user enters the asked details,
-        system calculate match outcome based on the points entered for each player.
+    7) Start dos command prompt and reach to copied jar folder location and run below java command - 
+       java -jar TicTacToeKata-1.0-RELEASE.jar
+    8) One dialog will open in command prompt to enter player names of both players. Once user enters the asked details, 
+       system start with internal toss to assign X state to one of player. Now system will ask every player to enter row 
+       and column values to mark corresponding states X or O in score board, system will keep showing board state after 
+       both player enters there states. Once winner is identified by system by calculating same state in one row, or one column, 
+       or diagonally, it will stop game and show winner's name.
+  
+
